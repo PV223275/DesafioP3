@@ -9,6 +9,7 @@
 </head>
 
 <body class="container mt-5">
+    <!--Formulario-->
     <h2 class="mb-4">Formulario de Registro</h2>
     <form id="formulario">
         <div class="mb-3">

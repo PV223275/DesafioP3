@@ -9,7 +9,7 @@ $stmt->bind_param("i", $id);
 if ($stmt->execute()) {
     echo 'Usuario eliminado exitosamente.';
 } else {
-    echo 'Error al eliminar usuario: ' . $conexion->error .;
+    echo 'Error al eliminar usuario: ' . $conexion->error ;
 }
 
 $stmt->close();
