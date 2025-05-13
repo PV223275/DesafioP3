@@ -13,8 +13,8 @@ while ($row = $resultado->fetch_assoc()) {
         <td class='correo'>{$row['correo']}</td>
         <td>{$row['fecha_nacimiento']}</td>
         <td>
-            <button class='btn btn-warning btn-sm btn-actualizar' data-id='{$row['id']}'>Actualizar</button>
-            <button class='btn btn-danger btn-sm btn-eliminar' data-id='{$row['id']}'>Eliminar</button>
+            <button class='btn btn-outline-warning btn-sm btn-actualizar' data-id='{$row['id']}'>Actualizar</button>
+            <button class='btn btn-outline-danger btn-sm btn-eliminar' data-id='{$row['id']}'>Eliminar</button>
         </td>
     </tr>";
 }
